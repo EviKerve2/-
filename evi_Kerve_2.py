@@ -12,7 +12,7 @@ def arithmetic(a, b, oper):
         print("Неизвестная операция")
         return 0
 
-#2
+##2
 def is_year_leap(year):
     if (year%4==0) and (year%100!=0) or (year%400==0):
         return True
